@@ -64,7 +64,7 @@ const Description = () => {
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 0.5,delay:1 }}
   whileHover={{ scale: 1.1, transition: { duration: 0.1 } }}
-    src="public/images/Avatar.png" // Ensure correct path
+    src="https://png.pngtree.com/png-vector/20240131/ourmid/pngtree-man-profile-account-picture-character-png-image_11577305.png" // Ensure correct path
     alt="Profile-Image"
     className="mb-5 rounded-3xl w-[35vw] md:w-[30vw] md:h-[60vh] object-cover transition-transform duration-300 ease-in-out hover:scale-105"
   />
