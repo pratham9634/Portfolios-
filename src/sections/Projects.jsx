@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: "Dice Game 🎲",
-    image: "src/images/Dicegame.jpeg",
+    image: "src/images/DiceGame.jpeg",
     description:
       "A fun and interactive dice-rolling game with engaging animations.",
     techStack: "React.js, JavaScript, Tailwind CSS",
