@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "Pokedex 🐉",
-    image: "src/images/Pokemon.jpeg",
+    image: "public/images/Pokemon.jpeg",
     description:
       "A Pokémon encyclopedia that fetches real-time Pokémon data and displays their abilities.",
     techStack: "HTML, CSS, PokeAPI, JavaScript",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: "Dice Game 🎲",
-    image: "src/images/DiceGame.jpeg",
+    image: "public/images/DiceGame.jpeg",
     description:
       "A fun and interactive dice-rolling game with engaging animations.",
     techStack: "React.js, JavaScript, Tailwind CSS",
