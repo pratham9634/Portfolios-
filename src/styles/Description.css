@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+
+.desc{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+  background-color: rgba(48, 46, 46, 0.558);
+  padding: 10px;
+  border-radius: 25px;
+} 
+  
+  .name_effect{
+    height: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgb(237, 237, 237); /* Blinking Cursor */
+    width: 0; /* Start with 0 width */
+    
+    animation: typing 3s steps(25) infinite forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 30vw; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
